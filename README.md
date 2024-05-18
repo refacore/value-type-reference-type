@@ -11,7 +11,7 @@ Stack lưu trữ các biến có độ dài cố định như là các kiểu d�
 Heap lưu trữ dữ liệu các dạng biến có độ dài không cố định như string (string khác với char array), object. Các dữ liệu này không lưu trong stack được vì khi nó thay đổi, sẽ tốn chi phí lớn để cập nhật lại tất cả các biến trong stack (do địa chỉ, index bị sai khác đi khi cấp phát bọ nhớ cho biến kia).
 
 # Kiểu giá trị - Kiểu tham chiếu
-![Stack - Heap - Value Type - Reference Type](StackQueue.png)
+![Stack - Heap - Value Type - Reference Type](StackHeap.png)
 Kiểu giá trị là kiểu mà giá trị của nó được lưu trữ trong Stack là đủ.
 
 Kiểu tham chiếu là kiểu mà nó phải lưu cả ở Stack lẫn Heap.
